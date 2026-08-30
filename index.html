@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RadixNeuracloud | Smart Engineering. Practical Solutions.</title>
+    <meta name="description" content="RadixNeuracloud provides smart engineering and practical digital solutions for businesses.">
+
+```
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        color: #222;
+        background: #fff;
+        line-height: 1.6;
+    }
+
+    nav {
+        height: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 7%;
+        border-bottom: 1px solid #eee;
+        background: #fff;
+    }
+
+    .logo {
+        height: 48px;
+        width: auto;
+    }
+
+    nav ul {
+        display: flex;
+        list-style: none;
+        gap: 35px;
+    }
+
+    nav a {
+        text-decoration: none;
+        color: #222;
+        font-weight: 500;
+    }
+
+    nav a:hover {
+        opacity: 0.6;
+    }
+
+    .hero {
+        min-height: 650px;
+        display: flex;
+        align-items: center;
+        padding: 80px 7%;
+        background: #fafafa;
+    }
+
+    .hero-content {
+        max-width: 650px;
+    }
+
+    .hero h1 {
+        font-size: clamp(45px, 6vw, 76px);
+        line-height: 1.05;
+        margin-bottom: 25px;
+    }
+
+    .hero h1 span {
+        color: #2563eb;
+    }
+
+    .hero p {
+        font-size: 20px;
+        color: #666;
+        max-width: 570px;
+        margin-bottom: 35px;
+    }
+
+    .button {
+        display: inline-block;
+        padding: 15px 28px;
+        background: #2563eb;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 6px;
+        font-weight: bold;
+    }
+
+    .button:hover {
+        opacity: 0.85;
+    }
+
+    section {
+        padding: 90px 7%;
+    }
+
+    .section-title {
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+    .section-title h2 {
+        font-size: 42px;
+        margin-bottom: 12px;
+    }
+
+    .section-title p {
+        color: #777;
+    }
+
+    .services {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 25px;
+    }
+
+    .service {
+        padding: 35px;
+        border: 1px solid #eee;
+        border-radius: 12px;
+        background: #fff;
+    }
+
+    .service h3 {
+        margin-bottom: 15px;
+        font-size: 22px;
+    }
+
+    .service p {
+        color: #666;
+    }
+
+    .about {
+        background: #fafafa;
+        text-align: center;
+    }
+
+    .about-content {
+        max-width: 800px;
+        margin: auto;
+    }
+
+    .about p {
+        color: #666;
+        font-size: 18px;
+    }
+
+    .contact {
+        text-align: center;
+    }
+
+    footer {
+        padding: 30px 7%;
+        text-align: center;
+        background: #111;
+        color: #aaa;
+    }
+
+    @media (max-width: 768px) {
+        nav ul {
+            display: none;
+        }
+
+        .hero {
+            min-height: 550px;
+        }
+
+        .services {
+            grid-template-columns: 1fr;
+        }
+
+        section {
+            padding: 65px 6%;
+        }
+    }
+</style>
+```
+
+</head>
+
+<body>
+
+```
+<nav>
+    <img src="images/logo.png" alt="RadixNeuracloud Logo" class="logo">
+
+    <ul>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+
+<section class="hero">
+    <div class="hero-content">
+        <h1>Smart Engineering.<br><span>Practical Solutions.</span></h1>
+
+        <p>
+            We build intelligent digital solutions that help businesses
+            work smarter, operate better, and grow with confidence.
+        </p>
+
+        <a href="#contact" class="button">Let's Work Together</a>
+    </div>
+</section>
+
+<section id="services">
+    <div class="section-title">
+        <h2>What We Do</h2>
+        <p>Digital solutions built around your business.</p>
+    </div>
+
+    <div class="services">
+
+        <div class="service">
+            <h3>Web Solutions</h3>
+            <p>
+                Modern, responsive websites and web applications
+                designed around your business needs.
+            </p>
+        </div>
+
+        <div class="service">
+            <h3>SaaS Solutions</h3>
+            <p>
+                Practical software solutions that simplify operations
+                and improve business efficiency.
+            </p>
+        </div>
+
+        <div class="service">
+            <h3>Custom Systems</h3>
+            <p>
+                Purpose-built digital systems engineered to solve
+                specific business challenges.
+            </p>
+        </div>
+
+    </div>
+</section>
+
+<section id="about" class="about">
+    <div class="about-content">
+        <div class="section-title">
+            <h2>Built With Purpose</h2>
+        </div>
+
+        <p>
+            RadixNeuracloud combines modern technology with practical
+            business thinking. We focus on creating solutions that are
+            useful, scalable, and built to deliver real results.
+        </p>
+    </div>
+</section>
+
+<section id="contact" class="contact">
+    <div class="section-title">
+        <h2>Let's Build Something Better</h2>
+        <p>Have a project or business challenge? Let's talk.</p>
+    </div>
+
+    <a href="mailto:hello@radixneuracloud.com" class="button">
+        Contact Us
+    </a>
+</section>
+
+<footer>
+    © 2026 RadixNeuracloud. All rights reserved.
+</footer>
+```
+
+</body>
+</html>
